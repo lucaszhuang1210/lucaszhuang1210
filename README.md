@@ -21,6 +21,21 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
 
 ---
 
+<h2 align="left" style="color: #48d1cc;">Connect with Me 📫</h2>
+<div align="center">
+  <a href="mailto:zhuangk2@uci.edu" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=red&logoColor=white&style=for-the-badge" height="33" alt="email logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/lucaszhuang1210" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="33" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.youtube.com/@lucaszhuang1210" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&style=for-the-badge" height="33" alt="youtube logo"  />
+  </a>
+</div>
+
+---
+
 <h2 align="left" style="color: #ffa500;">Skills ⚡</h2>
 
 ### Programming Languages
@@ -60,18 +75,7 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
 
 ---
 
-<h2 align="left" style="color: #48d1cc;">Connect with Me 📫</h2>
-<div align="center">
-  <a href="mailto:zhuangk2@uci.edu" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=red&logoColor=white&style=for-the-badge" height="33" alt="email logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/lucaszhuang1210" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="33" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.youtube.com/@lucaszhuang1210" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&style=for-the-badge" height="33" alt="youtube logo"  />
-  </a>
-</div>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ---
 
@@ -99,10 +103,6 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
 
 🔹 <a href="https://github.com/lucaszhuang1210/ToxicDetect">ToxicDetect</a>  
 *A machine learning pipeline for detecting and classifying toxic comments across multiple categories.*  
-
----
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ---
 
