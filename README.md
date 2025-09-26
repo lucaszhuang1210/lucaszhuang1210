@@ -78,7 +78,7 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
 <h2 align="left" style="color: #ffa500;">Resume 📝</h2>
 <p>
   Want to learn more about my experience and skills? Check out my  
-  <a href="https://github.com/lucaszhuang1210/myResume/blob/main/Resume.pdf" 
+  <a href="https://github.com/lucaszhuang1210/lucaszhuang1210/blob/main/myResume.pdf" 
      style="text-decoration: none; color: #00ced1; font-weight: bold;">
      resume
   </a>.
