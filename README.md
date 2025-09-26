@@ -9,7 +9,7 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
   I'm a Computer Science & Business Information Management student at the 
   <a href="https://uci.edu/" style="text-decoration: none; color: #0077B5;">University of California, Irvine</a>. 
   
-  I’m passionate about combining <b>AI, finance, and software engineering</b> to create tools that solve real-world problems.  
+  I'm passionate about combining <b>AI, finance, and software engineering</b> to create tools that solve real-world problems.  
   
   A programmer 💻, trader 📈, and cat lover 🐾 sharing my journey through code, markets, and feline adventures!  
 </p>
@@ -44,38 +44,34 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="Java" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="C++" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="C" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="SQL/MySQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" height="30" alt="MATLAB" />
 </p>
 
----
-
 ### Frameworks
 <p>
-  <!-- custom AI/agent frameworks don’t have icons yet -->
-  🧠 AWS Strands | LangChain | CrewAI | MCP | Agentic AI | Agent Orchestration  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" height="30" alt="Tomcat" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/archlinux/archlinux-original.svg" height="30" alt="Software Architecture" />
-</p>
+  🧠 AWS Strands | LangChain | CrewAI | MCP | Agentic AI | Agent Orchestration
 
----
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" height="30" alt="Apache Tomcat" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="30" alt="Spring Framework" />
+</p>
 
 ### Developer Tools
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="30" alt="AWS" />  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="MySQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="PostgreSQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="30" alt="Kubernetes" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="PostgreSQL" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="MySQL" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="30" alt="Apache" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Git" />
 </p>
 
 ---
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg?user=lucaszhuang1210" alt="GitHub contribution snake animation" />
+</div>
 
 ---
 
@@ -93,17 +89,21 @@ Hello 👋, I'm Lucas (Kaixiang) Zhuang
 <h2 align="left" style="color: #48d1cc;">Featured Projects 🚀</h2>
 
 🔹 <a href="https://github.com/lucaszhuang1210/Fabflix">Fabflix.Life (E-commerce Web App)</a>  
+*Tech Stack: Java, MySQL, Apache Tomcat, HTML/CSS/JavaScript*  
 *A scalable, secure full-stack movie web application for data processing and MySQL database management.*  
 
 🔹 <a href="https://github.com/lucaszhuang1210/Checkers-AI-Agent">Checkers AI Agent</a>  
+*Tech Stack: Python, Monte Carlo Tree Search*  
 *An AI agent for Checkers that uses Monte Carlo Tree Search to make adaptive and efficient gameplay decisions.*  
 
 🔹 <a href="https://github.com/lucaszhuang1210/Multinomial-Naive-Bayes-Classifier">Multinomial Naive Bayes Classifier</a>  
+*Tech Stack: Python, Scikit-learn, Pandas*  
 *An exploration-driven research study on improving the Multinomial Naive Bayes (MNB) model for sentiment classification.*  
 
 🔹 <a href="https://github.com/lucaszhuang1210/ToxicDetect">ToxicDetect</a>  
+*Tech Stack: Python, Machine Learning, NLP*  
 *A machine learning pipeline for detecting and classifying toxic comments across multiple categories.*  
 
 ---
 
-⭐️ <i>Thanks for stopping by — feel free to connect or explore my work!</i>  
+⭐️ <i>Thanks for stopping by — feel free to connect or explore my work!</i>
