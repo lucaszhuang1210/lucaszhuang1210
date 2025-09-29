@@ -1,5 +1,5 @@
 <h1 align="center" style="color: #6a5acd; font-family: 'Courier New', Courier, monospace;">
-Hello 👋, I'm Lucas (Kaixiang) Zhuang
+Hello 👋🏼, I'm Lucas (Kaixiang) Zhuang
 </h1>
 
 ---
