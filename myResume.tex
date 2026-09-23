@@ -146,28 +146,30 @@
     {Founder \& Software Engineer, AI Products}{Apr. 2026 -- Present}
     {Blux Inc. (AI4Science)}{Irvine, CA}
     \resumeItemListStart
-        \resumeItem{Designed an AI-native research workflow platform for biological researchers, translating complex scientific workflows into interactive software systems.}
-        \resumeItem{Built backend services and agent-orchestration pipelines connecting AI reasoning with research data, workflow state, and human approval.}
-        \resumeItem{Architected data-ingestion, retrieval, and workflow-execution layers for traceable AI-assisted research workflows.}
+        \resumeItem{Enabled agent-driven file management and Kanban workflows for Blux's biological-research platform by integrating Nextcloud MCP with ZeroClaw on NixOS, resolving dynamic-linker and systemd service-environment failures.}
+        \resumeItem{Built a reproducible agent runtime with a dedicated service account and version-controlled identity, configuration, and persistent memory while isolating credentials and transient state.}
+        \resumeItem{Fixed ZeroClaw's Nix installation by resolving stale hashes and Rust incompatibilities; added five regression tests and CI checks, merging \href{https://github.com/zeroclaw-labs/zeroclaw/pull/10936}{\underline{PR \#10936}} with two approvals to close \href{https://github.com/zeroclaw-labs/zeroclaw/issues/5269}{\underline{issue \#5269}}.}
+        \resumeItem{Integrated ZeroCode into ZeroClaw's declarative Nix package across build, test, and runtime dependencies; submitted \href{https://github.com/NixOS/nixpkgs/pull/563820}{\underline{Nixpkgs PR \#563820}} and validated x86\_64 and ARM64 Linux builds.}
     \resumeItemListEnd
 
     \resumeSubheading
     {Software Engineer Intern}{Jun. 2025 -- Sep. 2025}
     {Yahoo Finance}{Mountain View, CA}
     \resumeItemListStart
-        \resumeItem{Built an LLM-powered AI analyst for stock valuation and earnings analysis using AWS Bedrock, Lambda, and SQS, enabling users to run financial valuation workflows in under two seconds through natural-language prompts.}
-        \resumeItem{Developed retrieval infrastructure for 6,500+ public companies using PostgreSQL and JSONB, enabling low-latency access to financial data and generated analyses.}
-        \resumeItem{Reduced third-party API usage by 40\% and request latency by 200 ms through Redis caching and bulk data ingestion.}
-        \resumeItem{Productionized event-driven AI inference services using FastAPI, Docker, Kubernetes (EKS), Terraform, Lambda, and SQS to support reliable long-running workflows.}
+        \resumeItem{Built and deployed a user-facing LLM financial analyst using AWS Bedrock, Lambda, and SQS, enabling natural-language stock valuation and earnings analysis in under two seconds.}
+        \resumeItem{Evaluated the AI analyst across the 30 largest public companies by market capitalization, performing error analysis on output correctness and achieving 68\% agreement with professional analyst ratings.}
+        \resumeItem{Evaluated agent tool selection and implemented fallback paths for failed MCP calls, preventing data-source failures from terminating multi-step valuation workflows.}
+        \resumeItem{Built PostgreSQL and JSONB retrieval infrastructure for 6,500+ public companies; reduced third-party API usage by 40\% and request latency by 200 ms through Redis caching and bulk data ingestion.}
+        \resumeItem{Deployed event-driven inference services using FastAPI, Docker, Kubernetes (EKS), Terraform, Lambda, and SQS for asynchronous, long-running financial-analysis workflows.}
     \resumeItemListEnd
 
     \resumeSubheading
     {Software Engineer Intern}{Jan. 2024 -- Mar. 2024}
     {University of California, Irvine}{Irvine, CA}
     \resumeItemListStart
-        \resumeItem{Led a team of three in building a distributed search engine spanning web crawling, indexing, ranking, storage, and query serving.}
+        \resumeItem{Led a team of three in building a distributed search system spanning web crawling, indexing, ranking, storage, and low-latency query serving.}
         \resumeItem{Architected an N-gram inverted index containing 1.88M MongoDB records, achieving sub-second search retrieval.}
-        \resumeItem{Built a web crawler indexing 370,000+ URLs across 55,000+ websites with trap detection.}
+        \resumeItem{Built a trap-aware crawler that indexed 370,000+ URLs across 55,000+ websites.}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -181,16 +183,14 @@
     {Undergraduate Researcher}{Sep. 2024 -- Jun. 2026}
     {University of California, Irvine}{Irvine, CA}
     \resumeItemListStart
-        \resumeItem{Built multi-agent planning systems in C++ and Python for warehouse-scale coordination, implementing Conflict-Based Search and benchmarking infrastructure.}
-        \resumeItem{Reduced total planning time complexity from exponential to linear through imitation learning, enabling coordination across thousands of agents.}
+        \resumeItem{Built and benchmarked C++/Python multi-agent planners using Conflict-Based Search and imitation learning, reducing total planning time complexity from exponential to linear across thousands of agents.}
     \resumeItemListEnd
 
     \resumeProjectHeading
       {\textbf{Fabflix.Life (Distributed E-Commerce Platform)} \href{https://youtu.be/H_bPcKQV8mA?t=289}{\underline{[Demo]}} $|$ \emph{Node.js, Express.js, AWS, Kubernetes, MySQL}}{}
     \resumeItemListStart
         \resumeItem{Built a distributed e-commerce platform with Node.js, Express.js, and MySQL, implementing REST APIs and secure transactional workflows.}
-        \resumeItem{Measured a 44\% performance improvement and 11,137 requests per minute in Apache JMeter load tests after deploying with Kubernetes (EKS), Elastic Load Balancing, and Auto Scaling.}
-        \resumeItem{Designed high-concurrency data access using MySQL connection pooling.}
+        \resumeItem{Increased throughput by 44\% to 11,137 requests per minute in Apache JMeter load tests by deploying with Kubernetes (EKS), Elastic Load Balancing, and Auto Scaling.}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -202,9 +202,9 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, Java, JavaScript, C++, C, SQL, Shell/Bash} \\
-     \textbf{Backend \& AI}{: FastAPI, Node.js, Express.js, LangChain, AWS Bedrock, RAG, MCP, REST APIs} \\
-     \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, Redis} \\
-     \textbf{Cloud \& Infrastructure}{: AWS Lambda, SQS, EKS, Docker, Kubernetes, Terraform} \\
+     \textbf{AI \& Agents}{: LLM Agents, LLM/Agent Evaluation, Error Analysis, RAG, MCP, LangChain, AWS Bedrock} \\
+     \textbf{Backend \& Data}{: FastAPI, Node.js, Express.js, REST APIs, PostgreSQL, MySQL, MongoDB, Redis} \\
+     \textbf{Cloud \& Platform}{: AWS Lambda, SQS, EKS, Docker, Kubernetes, Terraform, Nix/NixOS, systemd} \\
     }}
  \end{itemize}
 
