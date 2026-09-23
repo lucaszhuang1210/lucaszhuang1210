@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\ifdefined\pdfglyphtounicode
+  \input{glyphtounicode}
+\fi
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\ifdefined\pdfgentounicode
+  \pdfgentounicode=1
+\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kaixiang (Lucas) Zhuang} \\ \vspace{1pt}
+    \small (714) 306-8506 $|$
+    \href{mailto:zhuangk2@uci.edu}{\underline{zhuangk2@uci.edu}} $|$
+    \href{https://linkedin.com/in/lucaszhuang1210}{\underline{linkedin.com/in/lucaszhuang1210}} $|$
+    \href{https://github.com/lucaszhuang1210}{\underline{github.com/lucaszhuang1210}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Carnegie Mellon University}{Aug. 2026 -- Present}
+      {M.S. in Software Engineering $|$ Part-Time Program for Working Professionals}
+      {}
+    \resumeSubheading
+      {University of California, Irvine}{June 2026}
+      {B.S. in Computer Science; B.S. in Business Information Management}
+      {{Intelligent Systems (AI)} $|$ GPA: \textbf{3.92}}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Founder \& Software Engineer, AI Products}{Apr. 2026 -- Present}
+    {Blux Inc. (AI4Science)}{Irvine, CA}
+    \resumeItemListStart
+        \resumeItem{Designed an AI-native research workflow platform for biological researchers, translating complex scientific workflows into interactive software systems.}
+        \resumeItem{Built backend services and agent-orchestration pipelines connecting AI reasoning with research data, workflow state, and human approval.}
+        \resumeItem{Architected data-ingestion, retrieval, and workflow-execution layers for traceable AI-assisted research workflows.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Software Engineer Intern}{Jun. 2025 -- Sep. 2025}
+    {Yahoo Finance}{Mountain View, CA}
+    \resumeItemListStart
+        \resumeItem{Built an LLM-powered AI analyst for stock valuation and earnings analysis using AWS Bedrock, Lambda, and SQS, enabling users to run financial valuation workflows in under two seconds through natural-language prompts.}
+        \resumeItem{Developed retrieval infrastructure for 6,500+ public companies using PostgreSQL and JSONB, enabling low-latency access to financial data and generated analyses.}
+        \resumeItem{Reduced third-party API usage by 40\% and request latency by 200 ms through Redis caching and bulk data ingestion.}
+        \resumeItem{Productionized event-driven AI inference services using FastAPI, Docker, Kubernetes (EKS), Terraform, Lambda, and SQS to support reliable long-running workflows.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Software Engineer Intern}{Jan. 2024 -- Mar. 2024}
+    {University of California, Irvine}{Irvine, CA}
+    \resumeItemListStart
+        \resumeItem{Led a team of three in building a distributed search engine spanning web crawling, indexing, ranking, storage, and query serving.}
+        \resumeItem{Architected an N-gram inverted index containing 1.88M MongoDB records, achieving sub-second search retrieval.}
+        \resumeItem{Built a web crawler indexing 370,000+ URLs across 55,000+ websites with trap detection.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects and Research}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Undergraduate Researcher}{Sep. 2024 -- Jun. 2026}
+    {University of California, Irvine}{Irvine, CA}
+    \resumeItemListStart
+        \resumeItem{Built multi-agent planning systems in C++ and Python for warehouse-scale coordination, implementing Conflict-Based Search and benchmarking infrastructure.}
+        \resumeItem{Reduced total planning time complexity from exponential to linear through imitation learning, enabling coordination across thousands of agents.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Fabflix.Life (Distributed E-Commerce Platform)} \href{https://youtu.be/H_bPcKQV8mA?t=289}{\underline{[Demo]}} $|$ \emph{Node.js, Express.js, AWS, Kubernetes, MySQL}}{}
+    \resumeItemListStart
+        \resumeItem{Built a distributed e-commerce platform with Node.js, Express.js, and MySQL, implementing REST APIs and secure transactional workflows.}
+        \resumeItem{Measured a 44\% performance improvement and 11,137 requests per minute in Apache JMeter load tests after deploying with Kubernetes (EKS), Elastic Load Balancing, and Auto Scaling.}
+        \resumeItem{Designed high-concurrency data access using MySQL connection pooling.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, C++, C, SQL, Shell/Bash} \\
+     \textbf{Backend \& AI}{: FastAPI, Node.js, Express.js, LangChain, AWS Bedrock, RAG, MCP, REST APIs} \\
+     \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, Redis} \\
+     \textbf{Cloud \& Infrastructure}{: AWS Lambda, SQS, EKS, Docker, Kubernetes, Terraform} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
